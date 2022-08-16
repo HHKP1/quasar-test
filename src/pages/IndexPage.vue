@@ -3,7 +3,7 @@
     <img
       alt="Quasar logo"
       src="~assets/quasar-logo-vertical.svg"
-      style="width: 400px; height: 600px"
+      style="width: 600px; height: 600px"
     />
   </q-page>
 </template>
