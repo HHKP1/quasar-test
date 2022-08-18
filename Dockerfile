@@ -1,6 +1,6 @@
 FROM node:16-bullseye-slim
 
-ENV NODE_VERSION 18.7.0
+ENV NODE_VERSION 16.7.0
 
 COPY ./quasar-test/ /usr/apps
 
