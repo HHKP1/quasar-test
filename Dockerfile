@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM node:16-bullseye-slim
 
 ENV NODE_VERSION 18.7.0
 
