@@ -7,21 +7,21 @@ pipeline {
     }
 
     stages {
-        stage('git') {
+        stage('git...') {
             steps {
 
-                echo "Get some code from the Git"
+                echo "Get some code from the Git..."
                 git "https://github.com/HHKP1/quasar-test.git"
             }
         }
-        stage('dependencies') {
+        stage('install dependencies...') {
             steps {
 
                 echo "Install Dependencies"
                 sh "npm install"
             }
         }
-        stage('build') {
+        stage('build application...') {
             steps {
 
                 echo "Building the application ..."
@@ -29,7 +29,7 @@ pipeline {
             }
         }
 
-        stage('build image') {
+        stage('build image...') {
             steps {
                script {
                     echo "building the docker image..."
